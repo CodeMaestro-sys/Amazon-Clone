@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    border:border-box;
+    font-family:arial;
+}
+.navbar{
+    background-color:#0f1111;
+    height:60px;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.logo{
+    height:50px;
+    width:100px;
+}
+.nav_logo{
+    height:50px;
+    width:100px;
+    font-size:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+.first{
+    font-size:0.85rem;
+    color:#CCCCCC;
+    margin-left:18px;
+   
+}
+.second{
+    font-size:1rem;
+    color:#FFFFFF;
+    
+}
+.icon{
+    display:flex;
+    align-items:center;
+}
+/* box3 */
+.search{
+    display:flex;
+    align-items:center;
+    width:645px;
+    height:40px;
+}
+.search:hover{
+    border:3px solid orange;
+}
+.Select_button{
+    background-color:#FFFFFF;
+    color:#0f1111;
+    height:39px;
+    width:50px;
+    font:1rem;
+    border:none;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+}
+.Search_bar{
+    background-color:#FFFFFF;
+    color:#0f1111;
+    height:38px;
+    width:550px;
+    font-size:1rem;
+}
+.search-icon{
+    height:39px;
+    width:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#0f1111;
+    background-color:rgba(255, 166, 0, 0.902);
+    border-top-right-radius:4px;
+    border-top-right-radius:4px;
+}
+.choose-language{
+    height:39px;
+    width:60px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.sign{
+    height:20px;
+    width:40px;
+    background-image:url("images/eng.avif");
+    background-size:cover;
+    margin-right:10px;
+}
+.choose-language p{
+    font-size:0.85rem;
+}
+span{
+    font-size:0.75rem;
+}
+.Select_Account{
+    font-size:0.85rem;
+    font-weight:700;
+}
+.cart i{
+    font-size:35px;
+}
+.cart{
+    font-size:0.85rem;
+    font-weight:700;
+}
+/* Panel */
+.Panel{
+    height:39px;
+    background-color:#232F3E;
+    color:white;
+    display:flex;
+    
+    align-items:center;
+}
+.panel-all{
+    margin-left:10px;
+}
+.panel-opt{
+    width:80%;
+    font-size:0.95rem;
+    margin-left:10px;
+}
+.panel-opt a{
+    margin:8px;
+}
+.background-image{
+    background-image:url("images/back.jpg");
+    background-size:cover;
+    height:300px;
+    display:flex;
+    justify-content:Center;
+    align-items:flex-end;
+}
+.link-bar{
+    height:40px;
+    width:1250px;
+    font-size:0.85rem;
+    line-height:20px;
+    font-weight:500;
+    background-color:#F5F6F6;
+    Color:#0F1111;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:25px;
+}
+.link-bar a{
+    color:#2162A1;
+}
+.Shop-Card{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    color:#0f1111;
+    background-color:rgba(255, 85, 0, 0.947);
+    padding:0px 10px;
+}
+.box{
+    height:350px;
+    width:23%;
+    background-color:#fff;
+    margin:0.85rem;
+}
+.box-pic{
+    background-size:cover;
+    height:200px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.box-cont{
+    margin:1rem;
+}
+.box-cont p{
+    font-size:0.85rem;
+    color:#2162A1;
+}
+/* Footer */
+.nav-footer{
+    height:600px;
+    background-color:#232F3E;
+    color:#0f1111;
+}
+.panel-footer{
+    background-color:#3d526e;
+    color:#FFF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:50px;
+    font-size:0.85rem;
+}
+.Info{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:30px;
+}
+.Col{
+    height:300px;
+    width:150px;
+    color:#DDDDDD;
+}
+.Col h4{
+    color:#FFFFFF;
+    margin:6px 0px 14px;
+}
+.Col a{
+    display:block;
+    font-size:0.8rem;
+    margin-top:10px;
+}
+.lower-panel{
+    height:90px;
+    margin-top:25px;
+    border-top: 2px solid #3d526e;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.panel-logo{
+    color:white;
+    font-size:40px;
+    height:50px;
+    width:70px;
+}
+.last-panel{
+    height:90px;
+    background-color:#141d27;
+    color:#DDDDDD;
+    margin-top:20px;
+    justify-content:center;
+    text-align:center;
+}
+.instructions{
+    padding-top:25px;
+    font-size:0.8rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.instructions a{
+    padding-right:20px;
+}
+
+
